@@ -1,0 +1,180 @@
+/* Configurações-Gerais */
+
+body {
+  margin: 0px;
+  background-color: #f7f7f7;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+header {
+  background-color: #00709e;
+  color: #fff;
+  padding: 1rem;
+  font-family: "bungee", serif;
+  font-weight: normal;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Cabeçalho */
+
+.container {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container nav ul {
+  display: flex;
+  margin-right: 1.25rem;
+  gap: 2.5rem;
+}
+
+.container nav ul li a {
+  color: #fff;
+  font-size: 1.12rem;
+}
+
+/* Conteúdo-Sobre */
+
+main .container {
+  align-items: flex-start;
+  margin: 2rem auto;
+}
+
+main .container .game-image  {
+  height: 18.75rem;
+}
+
+main .container div {
+  display: grid;
+  gap: 0.62rem;
+  padding: 0 1.25rem;
+}
+
+main .container div h2 {
+  margin-bottom: 0.62rem;
+  font-family: "bungee", serif;
+  font-weight: normal;
+  color: #00709e;
+}
+
+main .container div ul li {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+main .container div ul li a img {
+  height: 1.5rem;
+}
+
+/* Personagens */
+
+.characters-vergil-dante {
+  border: 2px solid #000;
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  background-color: #00709e;
+  text-align: end;
+  transition: 0.3s;
+}
+.container-2 .characters-vergil-dante h3 {
+ position: absolute;
+ display: inline-block;
+ top: -1.25rem;
+ border-radius: 6px;
+ color: #f7f7f7;
+ background-color: #00709e;
+ padding: 0.62rem 1.25rem;
+ right: 0.62rem;
+ font-family: "bungee", serif;
+ font-weight: normal;
+}
+
+.characters-vergil-dante:hover, .character-nero:hover {
+  background-color: #1aa1d6;
+}
+.characters-vergil-dante p, .character-nero p {
+  font-size: 1.25rem;
+  color: #f7f7f7;
+  font-family: "roboto", serif;
+  margin: 0 1.87rem;
+}
+.characters-vergil-dante a, .character-nero a{
+  color: #ee2211;
+  display: inline-block;
+}
+.characters-vergil-dante a:hover, .character-nero a:hover {
+  color: #8f170c;
+}
+.character-nero {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1.25rem;
+  align-items: center;
+  background-color: #00709e;
+  border: 2px solid #000;
+  font-family: "roboto",serif;
+  transition: 0.3s;
+}
+
+.character-nero h3 {
+  position: absolute;
+  color: #f7f7f7;
+  padding: 0.62rem 1.25rem;
+  background-color: #00709e;
+  font-family: "bungee", serif;
+  font-weight: normal;
+  border-radius: 6px;
+  top: -1.25rem;
+  left: 0.62rem;
+}
+
+
+.container-2 {
+  display: grid;
+  margin: 0 auto;
+  max-width: 62.5rem;
+  gap: 3.75rem;
+}
+
+.container-2 div img {
+  height: 18.75rem;
+}
+
+.name {
+  position: relative;
+}
+
+/* Rodapé */
+
+footer {
+  background-color: #00709e;
+  padding: 1.25rem;
+color: #f7f7f7;
+  margin-top: 30px;
+}
+
