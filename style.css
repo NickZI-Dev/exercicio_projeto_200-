@@ -169,6 +169,52 @@ main .container div ul li a img {
   position: relative;
 }
 
+/* Formulario-Entre-em-Contato */
+.formulario {
+  border: 3px solid #00709e;
+  justify-self: start;
+  border-radius: 6px;
+  padding: 1rem;
+  font-family: "roboto", serif;
+}
+  .formulario form {
+    display: grid;
+    width: 375px;
+    gap: 0.62rem;
+    margin-top: 1.25rem;
+  }
+
+  .formulario form input, textarea {
+    padding: 8px;
+  }
+  .formulario form textarea {
+    padding-bottom: 5rem;
+    resize: none;
+  }
+
+  .formulario form input:focus, .formulario form textarea:focus {
+    outline-color: #150c8f;
+  }
+
+  .formulario form div {
+    justify-self: end;
+  }
+
+  .formulario form div button {
+    cursor: pointer;
+    padding: 5px 0.62rem;
+    background-color: #00709e;
+    color: #f7f7f7;
+    border: none;
+    border-radius: 6px;
+    font-family: "bungee", serif;
+    font-weight: normal;
+  }
+
+  .formulario form div button:hover {
+    background-color: #148cbb;
+  }
+
 /* Rodapé */
 
 footer {
